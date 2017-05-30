@@ -2,13 +2,12 @@
 /* CSS Document */
 
 
-body {
+/*body {
     margin: 0px;
     padding: 0px;
-	/* background-color: #CCC; */
 	font-family: Georgia, "Times New Roman", Times, serif; color:##006; font-size:11px;
 	color:#006;
-}
+}*/
 
 header{
   clear:both;
@@ -73,11 +72,13 @@ div#middle {
 }
 
 .headerFooter{
-	float:left;
+	/*float:left;*/
 	font-size:18px;
 	background-color:rgb(0, 102, 102);
     padding:15px;
     margin:10px 0px 10px 0px;
+    color:white;
+    border-radius:15px;
 }
 
 
