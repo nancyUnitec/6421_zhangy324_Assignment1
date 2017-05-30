@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+	/* background-color: #CCC; */
+	font-family: Georgia, "Times New Roman", Times, serif; color:##006; font-size:11px;
+	color:#006;
+}
+
+header{
+  clear:both;
+  height:125px;
+  text-align:center;
+}
+
+
+.nav li 
+{
+	float:right;
+	width: 330px;
+	margin:0;
+	/*position:absolute;*/ /*if use this, words overlap*/
+	/* position:relative; */
+	/* display:inline-block;  */
+	/* zoom:1; */
+	/* *display:inline; */
+}
+
+div#container {
+   width:1000px;
+   text-align:center; 
+}
+
+/*div#Header {
+    
+	text-align:center; 
+	height: 125px;
+	 width: 1000px;
+}
+*/
+div#Footer {
+    /* clear: both; */
+	/* padding: 1px; */
+	/* background-color: white; */
+	/* text-align:center; */
+	
+}
+div#left {
+    float: left;
+    width: 200px;
+}
+
+div#Gallery {
+    float: left;
+    width: 200px;
+}
+
+div#MainContent {
+    float: right;
+    width: 700px;
+}
+
+div#right {
+    float: right;
+    width: 180px;
+}
+div#middle {
+    padding:5px 180px 5px 180px;
+	margin:0px;
+}
+
+.headerFooter{
+	float:left;
+	font-size:18px;
+	background-color:rgb(0, 102, 102);
+    padding:15px;
+    margin:10px 0px 10px 0px;
+}
+
+
+.description{text-align:justify; padding:10px; float:right;}
+
+/* transparent box */
+div#transbox{
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	text-align:justify;
+	background-image:url(images/background-bag.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	font-size:16px;
+	/* for IE */
+    filter:alpha(opacity=40);
+	/* CSS3 standard */
+    opacity:0.4;
+	height: 250px;
+}
+
+/* For image gallery */
+div.img
+  {
+  margin: 2px;
+  border: 1px solid #0000ff;
+  height: auto;
+  width: auto;
+  float: left; 
+  text-align: center;
+  }
+div.img img
+  {
+  display: inline;
+  margin: 3px;
+  border: 1px solid #ffffff;
+  }
+div.img a:hover img
+  {
+  border: 1px solid #0000ff;
+  }
+div.desc
+  {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 2px;
+  }
+
+.heading{text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; font-weight:bold; padding:10px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
