@@ -1,0 +1,69 @@
+#container{
+	color:black;
+	width:1000px;
+	text-align:center;
+	font-family:Arial;
+	
+}
+
+header{
+	clear:both;
+	height:125px;
+	text-align:center;
+}
+
+ul.menubar{
+	width:330px;
+	float:right;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+ul.menubar a
+{
+float:left;
+color:white;
+text-decoration:none;
+padding:7px;
+width:95px;
+background-image: url("images/item.jpg");
+}
+ul.menubar a:hover {background-image: url("images/itemOver.jpg");}
+
+div#gallery{
+	width:200px;
+	float:left;
+}
+
+
+
+div#content{
+	width:700px;
+	float:left;
+	text-align:justify;
+	vertical-align: text-top;
+	padding-left:10px;
+}
+
+footer{
+	float:left;
+	text-align:left;
+}
+
+.headerFooter{
+	background-color:#006666;
+	font-size:18px;
+	color:white;
+	padding:15px;
+	border-radius:15px;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:1000px;
+}
+
+table{
+	background-image: url(images/background.jpg);
+	background-repeat:repeat-x;
+	background-position: left bottom;
+}
